@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="./css/dom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- <div class="templet">
+        <section>
+            <ul>
+                <li class="link">link</li>
+                <li class="link">link</li>
+                <li class="link">link</li>
+                <li class="link">link</li>
+                <li class="link">link</li>
+            </ul>
+        </section>
+    </div>
+    <div class="demo">
+        <section>
+            <ul>
+                <li class="link">link</li>
+                <li class="link">link</li>
+                <li class="link">link</li>
+                <li class="link">link</li>
+                <li class="link">link</li>
+            </ul>
+        </section>
+    </div>-->
+
+
+    <!-- <section id="headerBlock">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">REGISTER</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section id=toggleBlock>
+        <button id="btn" class="btn btn-danger"></button>
+    </section> -->
+
+
+    <!-- <div id="template">
+        <button id="btn btn-danger">TAP ME TO CHANGE</button>
+    </div> -->
+
+
+    <!-- <form class="container card card-body my-2">
+        <input type="text" id="username" class="form-control" placeholder="enter username">
+    </form> -->
+
+    <!-- <section class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <textarea name="" id="textarea" cols="30" rows="10" class="form-control">
+                </textarea>
+            </div>
+            <div class="col-md-6">
+                <textarea name="" id="textareaclone" cols="30" rows="10" class="form-control">
+                </textarea>
+            </div>
+        </div>
+    </section> -->
+    <style>
+        body {
+            background-color: skyblue;
+        }
+
+        input:invalid {
+            border: red;
+        }
+
+        input:valid {
+            border: blue;
+        }
+    </style>
+
+    <!-- <section class="col-md-4 mx-auto card my-2">
+        <div class="card-body">
+            <h1 class="text-uppercase text-primary font-weight-bold">
+                login
+            </h1>
+            <form action="" autocomplete="off" id="form" novalidate>
+                <div class="form-group">
+                    <p class="text-danger" id="errorBlock"></p>
+                    <label for="">User Name</label>
+                    <input type="text " class="form-control" id="username" name="username"
+                        placeholder="enter your username" required>
+                </div>
+                <div class="form-group">
+                    <label for="">Password</label>
+                    <input type="password " class="form-control" id="password" name="password"
+                        placeholder="enter password" required>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary my-4 btn-block">log in</button>
+                </div>
+            </form>
+        </div>
+    </section> -->
+
+    <section class="container my-4">
+        <form action="" class="form" id="form">
+            <input type="text" class="form-control my-2 bg-light" placeholder="Add some more Data" id="input">
+            <button class="btn btn-block btn-dark my-2">Add Items</button>
+        </form>
+        <ul class="list-group">
+            <li class="list-group-item"><a>Home
+                    <!-- <span><button class="btn btn-danger btn-sm float-right">Remove</button></span> -->
+                </a> </li>
+            <li class="list-group-item"><a>About
+                    <!-- <span><button class="btn btn-danger btn-sm float-right">Remove</button></span> -->
+                </a></li>
+            <li class="list-group-item"><a>Services
+                    <!-- <span><button class="btn btn-danger btn-sm float-right">Remove</button></span> -->
+                </a> </li>
+            <li class="list-group-item"><a>Contact us
+                    <!-- <span><button class="btn btn-danger btn-sm float-right">Remove</button></span> -->
+                </a> </li>
+            <li class="list-group-item"><a>Login
+                    <!-- <span><button class="btn btn-danger btn-sm float-right">Remove</button></span> -->
+                </a> </li>
+            <li class="list-group-item"><a>Register
+                    <!-- <span><button class="btn btn-danger btn-sm float-right">Remove</button></span> -->
+                </a> </li>
+        </ul>
+    </section>
+    <div id="grandparent">
+        <div id="parent">
+            <div id="child">
+
+            </div>
+        </div>
+    </div>
+    <script src="./js/dom.js"></script>
+</body>
+
+
+</html>
